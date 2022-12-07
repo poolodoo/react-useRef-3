@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function App() {
   // the ref that will connect to input field
-  const nameRef = useRef("Sun");
+  const nameRef = useRef();
 
   // form submit handler
   const onSubmit = (e) => {
